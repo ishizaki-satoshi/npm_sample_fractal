@@ -1,0 +1,10 @@
+// サンプル2
+.sample2 {
+  font-weight: bold;
+  &--active {
+    color: #a00;
+  }
+  &--disable {
+    color: #888;
+  }
+}

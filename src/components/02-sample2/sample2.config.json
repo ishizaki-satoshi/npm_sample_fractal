@@ -1,0 +1,20 @@
+{
+  "title": "サンプル2",
+  "label": "サンプル2",
+  "variants": [
+    {
+      "name": "default",
+      "label": "通常"
+    },
+    {
+      "name": "active",
+      "label": "アクティブ"
+    },
+    {
+      "name": "disable",
+      "label": "無効",
+      "status": "prototype",
+      "hidden": true
+    }
+  ]
+}

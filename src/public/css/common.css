@@ -1,0 +1,23 @@
+.sample1 p {
+  font-size: 20px;
+}
+
+.sample2 {
+  font-weight: bold;
+}
+
+.sample2--active {
+  color: #a00;
+}
+
+.sample2--disable {
+  color: #888;
+}
+
+.sample3-1 p {
+  font-size: 20px;
+}
+
+.sample3-2 p {
+  font-size: 20px;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "npm_sample_fractal",
+  "version": "1.0.0",
+  "description": "タスクランナーのサンプル - fractal",
+  "main": "index.js",
+  "scripts": {
+    "build/fractal": "fractal build",
+    "build/css": "gulp css",
+    "build/js": "webpack",
+    "build/all": "npm run build/js && npm run build/css && npm run build/fractal"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@frctl/fractal": "^1.2.0",
+    "css-mqpacker": "^7.0.0",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-csslint-report": "^2.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-sorting": "^5.0.1",
+    "stylelint-config-standard": "^19.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "not ie < 11",
+    "iOS >= 9",
+    "Android >= 4.4"
+  ],
+  "fractal": {
+    "main": "fractalfile.js"
+  }
+}
